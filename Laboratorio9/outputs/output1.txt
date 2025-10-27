@@ -1,0 +1,17 @@
+=== STDOUT ===
+Parseo exitoso
+
+=== Iniciando impresión del programa ===
+var intx,;
+fun void main() {
+var booly,;
+y=2 < 3 and 4 + 5
+print(y)
+return 0
+}
+
+
+=== Iniciando verificación de tipos ===
+
+=== STDERR ===
+Error: operación logica requiere operandos bool.

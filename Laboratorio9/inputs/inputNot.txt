@@ -1,0 +1,6 @@
+fun int main()
+    var bool y;
+    y = not true and (3 < 9);
+    print(y);
+    return(0)
+endfun

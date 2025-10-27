@@ -1,0 +1,6 @@
+var int x;
+fun void main()
+    x = true;
+    print(x);
+    return(0)
+endfun

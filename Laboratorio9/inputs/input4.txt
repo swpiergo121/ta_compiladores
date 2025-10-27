@@ -1,0 +1,10 @@
+fun int suma(int x, int y)
+    return x + y;
+endfun
+
+fun void main()
+    int z;
+    z =suma(4, 8);
+    print(z);
+    return(0)
+endfun

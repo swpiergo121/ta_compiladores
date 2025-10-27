@@ -1,0 +1,6 @@
+fun int main()
+    var bool y;
+    y = 2<3;
+    print(y);
+    return 3
+endfun

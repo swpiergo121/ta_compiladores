@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/Laboratorio9.dir/link.d CMakeFiles/Laboratorio9.dir/ast.cpp.o CMakeFiles/Laboratorio9.dir/main.cpp.o CMakeFiles/Laboratorio9.dir/parser.cpp.o CMakeFiles/Laboratorio9.dir/scanner.cpp.o CMakeFiles/Laboratorio9.dir/token.cpp.o CMakeFiles/Laboratorio9.dir/TypeChecker.cpp.o CMakeFiles/Laboratorio9.dir/visitor.cpp.o -o Laboratorio9

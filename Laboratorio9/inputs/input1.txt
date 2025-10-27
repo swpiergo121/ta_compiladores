@@ -1,0 +1,7 @@
+var int x;
+fun void main()
+    var bool y;
+    y = (2<3) and (4+5);
+    print(y);
+    return(0)
+endfun

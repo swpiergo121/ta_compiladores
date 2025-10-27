@@ -1,0 +1,6 @@
+var bool x;
+fun void main()
+    x = true;
+    print(x);
+    return(0)
+endfun

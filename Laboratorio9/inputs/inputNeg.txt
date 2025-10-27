@@ -1,0 +1,6 @@
+fun int main()
+    var int y;
+    y = -(- (2 * 3)) ;
+    print(y);
+    return(0)
+endfun

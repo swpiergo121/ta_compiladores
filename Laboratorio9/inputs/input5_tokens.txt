@@ -1,0 +1,29 @@
+Scanner
+
+TOKEN(FUN, "fun")
+TOKEN(ID, "int")
+TOKEN(ID, "main")
+TOKEN(LPAREN, "(")
+TOKEN(RPAREN, ")")
+TOKEN(VAR, "var")
+TOKEN(ID, "bool")
+TOKEN(ID, "y")
+TOKEN(SEMICOL, ";")
+TOKEN(ID, "y")
+TOKEN(ASSIGN, "=")
+TOKEN(NUM, "2")
+TOKEN(LE, "<")
+TOKEN(NUM, "3")
+TOKEN(SEMICOL, ";")
+TOKEN(PRINT, "print")
+TOKEN(LPAREN, "(")
+TOKEN(ID, "y")
+TOKEN(RPAREN, ")")
+TOKEN(SEMICOL, ";")
+TOKEN(RETURN, "return")
+TOKEN(NUM, "3")
+TOKEN(ENDFUN, "endfun")
+TOKEN(END)
+
+Scanner exitoso
+

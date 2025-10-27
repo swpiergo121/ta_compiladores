@@ -1,0 +1,8 @@
+fun int main()
+    if 8 < 4 then
+        print(1)
+     else
+        print(0)
+     endif;
+    return(0)
+endfun
