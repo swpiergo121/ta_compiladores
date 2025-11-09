@@ -1,0 +1,4 @@
+fun main() {
+    val x = 5
+    if (x < 3) println(1) else println(2)
+}

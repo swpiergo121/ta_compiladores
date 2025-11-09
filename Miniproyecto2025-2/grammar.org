@@ -1,0 +1,51 @@
+#+title: Grammar
+
+Program ::= VarDecList FunDecList
+
+VarDecList ::= (VarDec)*
+
+FunDecList ::= (FunDec)+
+
+FunDec ::= \textbf{fun} id\textbf{(}[ParamDecList]\textbf{)} \textbf{:} Type \textbf{\{} Body \textbf{\}}
+
+Body ::= VarDecList StmtList
+
+ParamDecList ::= id \textbf{:} Type (\textbf{,} id\textbf{:} Type)*
+
+VarDec ::= VarSymbol id \textbf{:} Type [ \textbf{=} CExp]
+
+VarSymbol ::= val | var
+
+Arguments ::= val id \textbf{:} Type (\textbf{,} val id\textbf{:} Type)*
+
+Type ::= id
+
+VarList :: id (\textbf{,}id)*
+
+StmtList ::= Stmt ( \textbf{;} Stmt )*
+
+Stmt ::= id \textbf{=} CExp |
+
+\quad\quad (\textbf{println} | \textbf{print}) ( CExp ) |
+
+\quad\quad \textbf{if} CExp \textbf{{} Body \textbf{}} [\textbf{else} \textbf{{} Body \textbf{}}] |
+
+\quad\quad \textbf{while (} CExp \textbf{)} \textbf{{} Body \textbf{}} |
+
+\quad\quad \textbf{for} \textbf{(}id \textbf{in} id \textbf{)} \textbf{{} Body \textbf{}} |
+
+\quad\quad \textbf{return} \textbf{(} [CExp] \textbf{)} |
+
+CExp ::= Exp [(<|<=|==) Exp]
+
+Exp ::= Term ((+ | -) Term)*
+
+Term ::= Factor ((|/) Factor)
+
+Factor ::= id | Num | Bool | ( Exp ) |
+
+\quad\quad \textbf{if} ( CExp ) CExp \textbf{else} CExp  | id ( [ArgList] )
+
+ArgList ::= CExp (, CExp)*
+
+Bool ::= \textbf{true} | \textbf{false}

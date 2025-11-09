@@ -1,0 +1,4 @@
+fun main() {
+    val x = 2
+    if (x == 2) println(10) else println(20)
+}

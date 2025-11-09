@@ -1,0 +1,5 @@
+var b: Int = 12
+fun main() {
+    var y: Int = 17
+    println(b + y)
+}

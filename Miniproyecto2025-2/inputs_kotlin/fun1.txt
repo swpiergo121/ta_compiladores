@@ -1,0 +1,6 @@
+fun f(n: Int): Int {
+    return n * 2
+}
+fun main() {
+    println(f(3))
+}
